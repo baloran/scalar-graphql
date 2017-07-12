@@ -1,7 +1,7 @@
 import { GraphQLScalarType } from 'graphql'
 import { Kind } from 'graphql/language'
 
-export default (JSONScalar = new GraphQLScalarType({
+export default new GraphQLScalarType({
   name: 'JSON',
   description: 'JSON custom scalar',
   parseValue(value) {
@@ -32,4 +32,4 @@ export default (JSONScalar = new GraphQLScalarType({
         return null
     }
   },
-}))
+})
