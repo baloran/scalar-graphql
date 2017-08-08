@@ -1,6 +1,6 @@
 {
   "name": "custom-scalar-graphql",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Custom scalar",
   "files": ["lib", "flow"],
   "main": "lib/index.js",
@@ -22,6 +22,7 @@
     "number"
   ],
   "author": "Baloran aka Arnaud Allouis <contact@baloran.fr>",
+  "contributors": ["Léo Le Bras <leo.lebrasf@gmail.com>"],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/baloran/scalar-graphql/issues"
