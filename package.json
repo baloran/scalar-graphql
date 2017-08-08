@@ -2,7 +2,7 @@
   "name": "custom-scalar-graphql",
   "version": "0.1.6",
   "description": "Custom scalar",
-  "files": ["lib"],
+  "files": ["lib", "flow"],
   "main": "lib/index.js",
   "scripts": {
     "build": "rimraf lib && babel src -d lib",

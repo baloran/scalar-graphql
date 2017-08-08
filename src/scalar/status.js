@@ -21,5 +21,5 @@ export default new GraphQLScalarType({
 })
 
 function isStatus(value) {
-  return states.includes(value) ? value : null
+  return status.includes(value) ? value : null
 }
