@@ -1,6 +1,6 @@
 {
   "name": "custom-scalar-graphql",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Custom scalar",
   "files": ["lib", "flow"],
   "main": "lib/index.js",

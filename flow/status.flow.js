@@ -1,3 +1,3 @@
 /* @flow */
 
-export type status = 'publish' | 'archive' | 'trash' | 'draft'
+export type Status = 'publish' | 'archive' | 'trash' | 'draft'
