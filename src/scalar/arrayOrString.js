@@ -13,7 +13,7 @@ export default new GraphQLScalarType({
   parseLiteral(ast) {
     if (ast.kind === Kind.STRING) {
       return ast.value
-    } else if (ast.kind === Kind.ARRAY) {
+    } else if (ast.kind === Kind.LIST) {
       return ast.value
     }
     return null
